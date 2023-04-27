@@ -1,0 +1,42 @@
+.blog_post.first_post .blog_heading {
+    font-size: 25px;
+    color: rgb(31, 110, 58);
+    text-align: center;
+}
+
+.blog_post.first_post p {
+    background-color: rgb(185, 216, 44);
+    border: 20px;
+}
+
+.blog_post.second_post .blog_heading {
+    font-size: 25px;
+    color: blueviolet;
+    text-align: center;
+}
+.blog_post.second_post p {
+    background-color: rgb(231, 228, 228);
+    border: 20px;
+}
+ .blog_post.third_post .blog_heading {
+    font-size: 25px;
+    color: blue;
+    text-align: center;
+}
+
+.blog_post.third_post p {
+    background-color: palevioletred;
+    border: 20px;
+}
+
+.blog_post.fourth_post .blog_heading {
+    font-size: 25px;
+    color: maroon;
+    text-align: center;
+}
+
+.blog_post.fourth_post p {
+    background-color: rgb(243, 72, 10);
+    border: 20px;
+}
+
