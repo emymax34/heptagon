@@ -51,9 +51,12 @@
     border: 20px;
 }
 
-/* single-price-component  */
+/* single-price-component */
 .single-price-component {
+  width: 100%;
+  height: 100%;
   max-width: 600px;
+  max-height: 400px;
   margin: auto;
   text-align: left;
   display: flex;
@@ -63,24 +66,26 @@
 
 .product-name {
   background-color: #fff;
-  padding: 25px 20px;
+  padding: 25px 25px 25px 75px;
   border-radius: 10px;
   width: 100%;
+  height: 40%;
+  justify-content: center;
 }
 .product-name h1 {
   color: rgb(18, 190, 176);
   font-size: 24px;
-  margin-bottom: 20px;
+  padding-top: auto;
 }
 .product-name h2 {
   font-size: 20px;
-  color: rgb(148, 148, 9);
-  margin-bottom: 20px;
+  color: rgb(236, 240, 44);
+  margin-bottom: 0px;
 }
 .product-name p {
   font-family:  'Lucida Sans Regular';
   font-size: 12px;
-  margin-bottom: 20px; color: darkgray;
+  margin-bottom: 0px; color: rgb(196, 194, 194);
 }
 
 .product-details {
@@ -89,70 +94,71 @@
   align-items: flex-start;
   justify-content: left;
   width: 100%;
+  height: 60%;
+  border-radius: 10px;
 }
 
 .Price {
-  background-color: aqua;
+  background-color: rgb(3, 179, 155);
   color: #fff;
-  padding: 20px 22px;
-  border: 20px;
+  padding: 20px 25px 40px 25px;
+  border: 10px;
 }
 .Price h1 {
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .Price h2 {
-  font-size: 28px;
+  font-size: 30px;
   color: #fff;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   display: inline;
 }
 .Price p.plan {
-  font-size: 16px;
-  color: #d8d6d6;
-  margin-bottom: 30px;
+  font-size: 14px;
+  color: #e9dcdc;
+  opacity: 0.6;
+  margin-bottom: 0px;
   display: inline;
 }
 .Price p {
   font-size: 16px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .Price button.sign-up-now {
-  background-color: rgb(243, 243, 13);
+  background-color: rgb(221, 221, 18);
   color: #777474;
   font-size: 12px;
   padding: 10px 70px 10px 70px;
   border: hidden;
-  border: 10px;
   cursor: pointer;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .Price button.sign-up-now:hover {
   background-color: #e9d7d7;
 }
 .product-description {
-  background-color: rgb(30, 184, 120);
+  background-color: rgb(6, 221, 185);
   color: #fff;
-  padding: 4px 5px;
-  border: 20px;
+  padding: 20px 100px 25px 25px;
+  border: 10px;
 }
 .product-description h1 {
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .features {
   text-align: left;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  line-height: 0.8;
 }
 .features li {
   font-size: 12px;
   margin-bottom: 10px;
-  ;
 }
 .features li  .ul {
   color: #fff;
-  margin-bottom: 10px;
-  
+  margin-bottom: 0px;
 }
