@@ -62,9 +62,9 @@ body {
 /* single-price-component */
 .single-price-component {
   width: 50%;
-  height: 100%;
+  /* height: 100%; */
   max-width: 600px;
-  max-height: 400px;
+  /* max-height: 400px; */
   margin: auto;
   text-align: left;
   /* display: flex; */
@@ -112,13 +112,15 @@ body {
   /* width: 100%; */
   /* height: 60%; */
   /* border: 10px; */
+  /* margin-bottom: 5px; */;
+  margin: auto;
 }
 
 /*  */
 .Price {
   background-color: rgb(3, 179, 155);
   color: #fff;
-  padding: 20px 25px 40px 25px;
+  padding: 20px 40px 40px 40px;
   /* border: 10px; */
 }
 
@@ -164,7 +166,7 @@ body {
 .product-description {
   background-color: rgb(6, 221, 185);
   color: #fff;
-  padding: 20px 100px 25px 25px;
+  padding: 25px 140px 25px 30px;
   /* border: 10px; */
 }
 
@@ -182,7 +184,7 @@ body {
 }
 
 .features li {
-  font-size: 12.5px;
+  font-size: 13px;
   margin-bottom: 10px;
 }
 
