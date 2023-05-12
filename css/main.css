@@ -112,7 +112,8 @@ body {
   /* width: 100%; */
   /* height: 60%; */
   /* border: 10px; */
-  /* margin-bottom: 5px; */;
+  /* margin-bottom: 5px; */
+  ;
   margin: auto;
 }
 
@@ -191,4 +192,140 @@ body {
 .features li .ul {
   color: #fff;
   margin-bottom: 0px;
+}
+
+/* food-management-component */
+.food-management-component {
+  width: 100%;
+  max-width: fit-content;
+  /* max-height: fit-content; */
+  height:400px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/birdimages.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  box-sizing: border-box;
+  margin-top: 100px;
+  margin-bottom: auto;
+  font-weight: lighter;
+}
+    
+.first-component {
+  background-color: rgba(252, 36, 36, 0.5);
+  color: #fff;
+  /* margin-right: auto; */
+  height: 100%;
+}
+
+.first-component h2 {
+  font-size: 30px;
+  margin-top: 50px;
+  /* margin-bottom: 50px; */
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+
+.first-component p {
+  font-size: 22px;
+  margin: 40px 50px;
+}
+
+.first-component button.know-more {
+  font-size: 16px;
+  /* padding: 10px 20px 10px 20px; */
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: rgb(252, 36, 36, 0.3);
+  border: solid 1px #fff;
+  color: #fff;
+  padding: 12px 32px;
+  /* margin-top: 50px; */
+  margin-bottom: 50px;
+}
+
+.first-component .know-more:hover {
+  background-color: #0c6ad4;
+}
+
+.second-component {
+  background-color: rgb(92, 224, 99, 0.3);
+  color: #fff;
+  height: 100%;
+}
+
+.second-component h2 {
+  font-size: 30px;
+  margin-top: 50px;
+  /* margin-bottom: 50px; */
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.second-component p {
+  font-size: 22px;
+  margin: 40px 50px;
+}
+  
+
+.second-component button.know-more {
+  font-size: 16px;
+  /* padding: 10px 20px 10px 20px; */
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: rgb(92, 224, 99, 0.3);
+  border: solid 1px #fff;
+  color: #fff;
+  padding: 12px 32px;
+  /* margin-top: 50px; */
+  margin-bottom: 50px;
+
+}
+
+.second-component .know-more:hover {
+  background-color: #0c6ad4;
+}
+
+
+.third-component {
+  background-color: rgb(65, 163, 243, 0.5);
+  color: #fff;
+  margin-left: auto;
+  height: 100%;
+}
+
+.third-component h2 {
+  font-size: 30px;
+  margin-top: 50px;
+  /* margin-bottom: 50px; */
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.third-component p {
+  font-size: 22px;
+  margin: 40px 50px;
+}
+
+.third-component button.know-more {
+  font-size: 16px;
+  /* padding: 10px 20px 10px 20px; */
+  cursor: pointer;
+  border-radius:30px;
+  background-color: rgb(65, 163, 243, 0.3);
+  border: solid 1px #fff;
+  color: #fff;
+  padding: 12px 32px;
+  /* margin-top: 50px; */
+  margin-bottom: 50px;
+}
+
+
+.third-component .know-more:hover {
+  background-color: #0c6ad4;
 }
