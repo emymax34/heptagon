@@ -198,7 +198,7 @@ body {
 .food-management-component {
   width: 100%;
   max-width: fit-content;
-  /* max-height: fit-content; */
+  /* /* max-height: fit-content;  */
   height:400px;
   text-align: center;
   display: flex;
@@ -209,44 +209,45 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   margin-top: 100px;
-  margin-bottom: auto;
-  font-weight: lighter;
+  margin-bottom: 100px;
+  /* overflow: hidden; */
+  /* line-height:0 ; */
 }
     
 .first-component {
   background-color: rgba(252, 36, 36, 0.5);
   color: #fff;
-  /* margin-right: auto; */
+  margin-right: auto;
   height: 100%;
 }
 
 .first-component h2 {
-  font-size: 30px;
-  margin-top: 50px;
-  /* margin-bottom: 50px; */
-  margin-left: 100px;
-  margin-right: 100px;
+  font-size: 27px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 108px;
+  margin-right: 108px;
 
 }
 
 .first-component p {
-  font-size: 22px;
-  margin: 40px 50px;
+  font-size: 17px;
+  margin: 30px 60px;
 }
 
 .first-component button.know-more {
-  font-size: 16px;
-  /* padding: 10px 20px 10px 20px; */
+  font-size: 14px;
   cursor: pointer;
   border-radius: 30px;
   background-color: rgb(252, 36, 36, 0.3);
   border: solid 1px #fff;
   color: #fff;
-  padding: 12px 32px;
+  padding: 12px 24px;
   /* margin-top: 50px; */
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
+  /* margin: auto; */
 }
 
 .first-component .know-more:hover {
@@ -257,33 +258,35 @@ body {
   background-color: rgb(92, 224, 99, 0.3);
   color: #fff;
   height: 100%;
+  /* margin: auto; */
+  /* margin-left:auto ; */
+  /* margin-right: auto; */
 }
 
 .second-component h2 {
-  font-size: 30px;
-  margin-top: 50px;
-  /* margin-bottom: 50px; */
+  font-size: 27px;
+  margin-top: 30px;
+  margin-bottom: 47px;
   margin-left: 100px;
   margin-right: 100px;
 }
 
 .second-component p {
-  font-size: 22px;
-  margin: 40px 50px;
+  font-size: 17px;
+  margin: 30px 50px;
 }
   
 
 .second-component button.know-more {
-  font-size: 16px;
-  /* padding: 10px 20px 10px 20px; */
+  font-size: 14px;
   cursor: pointer;
   border-radius: 30px;
   background-color: rgb(92, 224, 99, 0.3);
   border: solid 1px #fff;
   color: #fff;
-  padding: 12px 32px;
+  padding: 12px 24px;
   /* margin-top: 50px; */
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 
 }
 
@@ -300,29 +303,29 @@ body {
 }
 
 .third-component h2 {
-  font-size: 30px;
-  margin-top: 50px;
-  /* margin-bottom: 50px; */
-  margin-left: 100px;
-  margin-right: 100px;
+  font-size: 27px;
+  margin-top: 30px;
+  margin-bottom: 45px;
+  margin-left: 110px;
+  margin-right: 110px;
 }
 
 .third-component p {
-  font-size: 22px;
-  margin: 40px 50px;
+  font-size: 17px;
+  margin: 25px 50px;
 }
 
 .third-component button.know-more {
-  font-size: 16px;
+  font-size: 14px;
   /* padding: 10px 20px 10px 20px; */
   cursor: pointer;
   border-radius:30px;
   background-color: rgb(65, 163, 243, 0.3);
   border: solid 1px #fff;
   color: #fff;
-  padding: 12px 32px;
+  padding: 12px 25px;
   /* margin-top: 50px; */
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 
