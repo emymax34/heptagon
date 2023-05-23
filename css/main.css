@@ -338,5 +338,16 @@ body {
     .food-management-component {
       display: flex;
       flex-direction: column;
+      /* margin-top: 40px; */
     }
+    .first-component p {
+      margin-top: 1opx;
+    }  
 }
+.first-component h2 {
+  font-size: 26px;
+  margin-top: 35px;
+  margin-bottom: 30px;
+
+}
+
