@@ -341,3 +341,139 @@ body {
       margin-bottom: auto;
     }
 }
+
+/* Registration */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100&display=swap');
+
+ .register {
+  background-color: hsla(0, 100%, 74%);
+  background-blend-mode: multiply;
+  background-image: url(..\img\regimage.jpg);
+  padding-bottom: 6rem;
+
+
+ }  
+ 
+ .container {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+
+ }
+
+  .above  {
+  margin-top: 0.6rem;
+  margin-left: 2rem;
+  width: 35%;
+  }
+
+ .details {
+  text-align: center; 
+  margin-left: 8rem;
+  margin-top: 11rem;
+  line-height: 1.8rem;
+ }
+
+ .details p {
+  text-align: left;
+ }
+
+ .details h2 {
+  text-align: left;
+ }
+
+ .price {
+  background-color: hsl(248, 32%, 49%);
+  text-align: center;
+  padding: 7px;
+  border-radius: 0.5rem;
+
+  
+ }
+
+ .form {
+  background-color: white;
+  margin-top: 1rem;
+  padding-top: 5rem;
+  text-align: center;
+  border-radius: 0.7rem;
+  height: 90%
+ }
+
+ .fill {
+  width: 350px;
+  height: 42px;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 0.45rem;
+  margin-bottom: 0.6rem;
+  padding-left: 1rem;
+ }
+
+ /* .fill input  */
+
+ .trial {
+  width: 350px;
+  background-color: hsl(154, 59%, 51%);
+  border-color: hsl(154, 59%, 51%);
+  box-shadow: none;
+  height: 40px;
+  border-radius: 0.45rem;
+  color: white;
+  font-weight: 500;
+  font-size: large;
+ }
+
+ .terms {
+  color: gray;
+  font-size: 9px;
+  font-weight: 400;
+ }
+
+ .link {
+  color: red;
+ }
+
+ /* Mobile devices */
+ @media screen and (max-width: 768px) {
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 160px;
+    text-align: center;
+  }
+
+ .details {
+  margin: auto;
+  padding-left: 2rem;
+  margin-left: 80px;
+}
+
+ .above {
+  text-align: center;
+  /* align-items: center; */
+  margin: auto;
+  /* margin-left: 120px; */
+  width: 450px;
+  height: 70%;
+ }
+
+ .form {
+  /* width: ; */
+  align-items: center;
+  padding-bottom: 4rem;
+ }
+
+ .input {
+  padding-right: 1rem;
+
+ }
+ 
+ }
+
+  
+   
